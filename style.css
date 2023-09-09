@@ -1,0 +1,56 @@
+:root {
+  --primary-color: #22254b;
+  --secondary-color: #373b69;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+main {
+  width: 33%;
+  height: 100%;
+  margin: 8rem 35%;
+}
+
+.container {
+  background-color: var(--secondary-color);
+  border-radius: 15px;
+  width: 90%;
+  height: 25rem;
+  padding-left: 1rem;
+}
+
+.img img {
+  width: 10rem;
+  height: 9rem;
+  border-radius: 50%;
+  margin-top: 2rem;
+  margin-left: 6.8rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.git {
+  background-color: var(--primary-color);
+  width: 94%;
+  border-radius: 5px;
+  border: 0;
+}
+
+.git button {
+  background-color: white;
+  border: 0;
+  width: 100%;
+}
+
+.git a {
+  padding-left: 2rem;
+  font-size: 1rem;
+}
